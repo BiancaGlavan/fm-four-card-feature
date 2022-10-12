@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-[Screenshot website](./images/screenshotcard.PNG)
+![Screenshot website](./images/screenshotcard.PNG)
 
 ### Links
 
