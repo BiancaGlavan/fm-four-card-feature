@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+* {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $very-light-gray;
+}
+
+.start {
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+
+
+    h1{
+        font-size: 30px;
+        font-weight: 200;
+        color: $very-dark-blue;
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: 600;
+        color: $very-dark-blue;
+        padding-bottom: 10px;
+    }
+
+    p{
+        font-size: 15px;
+        color: $very-dark-blue;
+        
+    }
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+    
+    .card {
+        background-color: white;
+        box-sizing: border-box;
+        border-radius: 5px;
+        max-width: 350px;
+        padding: 20px 30px;
+        flex-grow: 0;
+        margin: 20px;
+        box-shadow: 2px 3px 6px $grayish-blue;
+        flex-shrink: 0;
+
+        h2{
+            color: $very-dark-blue;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        p{
+            color: $grayish-blue;
+            font-weight: 200;
+            font-size: 15px;
+        }
+
+        img{
+            width: 40px;
+            display: block;
+            margin-left: auto;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .container {
+        flex-shrink: 0;
+    }
+
+    .card-cyan {
+        border-top: 3px solid $cyan;  
+    }
+
+    .card-red {
+        border-top: 3px solid $red;
+        margin-bottom: 30px;
+    }
+
+    .card-orange {
+        border-top: 3px solid $orange;
+    }
+    
+    .card-blue {
+        border-top: 3px solid $blue;
+    }
+  
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    .start {
+        padding: 10px;
+        margin: 50px auto;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+}
+
