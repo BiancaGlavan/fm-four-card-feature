@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://splendorous-sprinkles-2df4da.netlify.app/)
+- Live Site URL: [splendorous-sprinkles-2df4da.netlify.app](https://splendorous-sprinkles-2df4da.netlify.app/)
 
 ### Built with
 
